@@ -1,0 +1,21 @@
+---
+import DefaultLayout from '../layouts/default.layout.astro';
+import ComponentOne from '../components/ComponentOne.astro';
+---
+
+<DefaultLayout title="about us">
+	<h1>About Us page</h1>
+
+	<br />
+	<a href="/">Index page</a>
+	<br />
+	<a href="/contact">Contact page</a>
+
+	<ComponentOne title="Component One" />
+</DefaultLayout>
+
+<style is:inline lang="scss">
+	.about-page {
+		background: rgba(#000, 0.4);
+	}
+</style>

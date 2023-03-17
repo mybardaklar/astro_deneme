@@ -1,15 +1,194 @@
 ---
-import Layout from '../layouts/Layout.astro';
+import DefaultLayout from '../layouts/default.layout.astro';
 import Card from '../components/Card.astro';
+import ImgLogo from '@assets/img/logo--colored.png?url';
 ---
 
-<Layout title="Welcome to Astro.">
+<DefaultLayout title="Welcome to Astro.">
+	<aside x-data="{ count: 0 }" class="bg-red-400 p-2">
+		<button @click="count = count + 1">set count</button>
+		<div>You clicked <span x-text="count"></span> times</div>
+		<header><a href="#">test component header</a></header>
+		<main>test component main</main>
+		<footer>test component footer</footer>
+	</aside>
+
+	<br />
+	<a href="/about">About page</a>
+	<br />
+	<a href="/contact">Contact page</a>
+	<br />
+	<br />
+
+	<p>
+		Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore tenetur ex, impedit molestiae,
+		provident suscipit qui fugiat at, rerum recusandae odio placeat. Aperiam, sequi nobis?
+		Recusandae impedit repellendus fugit vitae.
+	</p>
+	<p>
+		Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore tenetur ex, impedit molestiae,
+		provident suscipit qui fugiat at, rerum recusandae odio placeat. Aperiam, sequi nobis?
+		Recusandae impedit repellendus fugit vitae.
+	</p>
+	<p>
+		Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore tenetur ex, impedit molestiae,
+		provident suscipit qui fugiat at, rerum recusandae odio placeat. Aperiam, sequi nobis?
+		Recusandae impedit repellendus fugit vitae.
+	</p>
+	<p>
+		Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore tenetur ex, impedit molestiae,
+		provident suscipit qui fugiat at, rerum recusandae odio placeat. Aperiam, sequi nobis?
+		Recusandae impedit repellendus fugit vitae.
+	</p>
+	<p>
+		Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore tenetur ex, impedit molestiae,
+		provident suscipit qui fugiat at, rerum recusandae odio placeat. Aperiam, sequi nobis?
+		Recusandae impedit repellendus fugit vitae.
+	</p>
+	<p>
+		Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore tenetur ex, impedit molestiae,
+		provident suscipit qui fugiat at, rerum recusandae odio placeat. Aperiam, sequi nobis?
+		Recusandae impedit repellendus fugit vitae.
+	</p>
+	<p>
+		Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore tenetur ex, impedit molestiae,
+		provident suscipit qui fugiat at, rerum recusandae odio placeat. Aperiam, sequi nobis?
+		Recusandae impedit repellendus fugit vitae.
+	</p>
+	<p>
+		Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore tenetur ex, impedit molestiae,
+		provident suscipit qui fugiat at, rerum recusandae odio placeat. Aperiam, sequi nobis?
+		Recusandae impedit repellendus fugit vitae.
+	</p>
+	<p>
+		Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore tenetur ex, impedit molestiae,
+		provident suscipit qui fugiat at, rerum recusandae odio placeat. Aperiam, sequi nobis?
+		Recusandae impedit repellendus fugit vitae.
+	</p>
+	<p>
+		Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore tenetur ex, impedit molestiae,
+		provident suscipit qui fugiat at, rerum recusandae odio placeat. Aperiam, sequi nobis?
+		Recusandae impedit repellendus fugit vitae.
+	</p>
+	<p>
+		Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore tenetur ex, impedit molestiae,
+		provident suscipit qui fugiat at, rerum recusandae odio placeat. Aperiam, sequi nobis?
+		Recusandae impedit repellendus fugit vitae.
+	</p>
+	<p>
+		Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore tenetur ex, impedit molestiae,
+		provident suscipit qui fugiat at, rerum recusandae odio placeat. Aperiam, sequi nobis?
+		Recusandae impedit repellendus fugit vitae.
+	</p>
+	<p>
+		Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore tenetur ex, impedit molestiae,
+		provident suscipit qui fugiat at, rerum recusandae odio placeat. Aperiam, sequi nobis?
+		Recusandae impedit repellendus fugit vitae.
+	</p>
+	<p>
+		Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore tenetur ex, impedit molestiae,
+		provident suscipit qui fugiat at, rerum recusandae odio placeat. Aperiam, sequi nobis?
+		Recusandae impedit repellendus fugit vitae.
+	</p>
+	<p>
+		Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore tenetur ex, impedit molestiae,
+		provident suscipit qui fugiat at, rerum recusandae odio placeat. Aperiam, sequi nobis?
+		Recusandae impedit repellendus fugit vitae.
+	</p>
+	<p>
+		Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore tenetur ex, impedit molestiae,
+		provident suscipit qui fugiat at, rerum recusandae odio placeat. Aperiam, sequi nobis?
+		Recusandae impedit repellendus fugit vitae.
+	</p>
+	<p>
+		Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore tenetur ex, impedit molestiae,
+		provident suscipit qui fugiat at, rerum recusandae odio placeat. Aperiam, sequi nobis?
+		Recusandae impedit repellendus fugit vitae.
+	</p>
+	<p>
+		Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore tenetur ex, impedit molestiae,
+		provident suscipit qui fugiat at, rerum recusandae odio placeat. Aperiam, sequi nobis?
+		Recusandae impedit repellendus fugit vitae.
+	</p>
+	<p>
+		Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore tenetur ex, impedit molestiae,
+		provident suscipit qui fugiat at, rerum recusandae odio placeat. Aperiam, sequi nobis?
+		Recusandae impedit repellendus fugit vitae.
+	</p>
+	<p>
+		Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore tenetur ex, impedit molestiae,
+		provident suscipit qui fugiat at, rerum recusandae odio placeat. Aperiam, sequi nobis?
+		Recusandae impedit repellendus fugit vitae.
+	</p>
+	<p>
+		Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore tenetur ex, impedit molestiae,
+		provident suscipit qui fugiat at, rerum recusandae odio placeat. Aperiam, sequi nobis?
+		Recusandae impedit repellendus fugit vitae.
+	</p>
+	<p>
+		Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore tenetur ex, impedit molestiae,
+		provident suscipit qui fugiat at, rerum recusandae odio placeat. Aperiam, sequi nobis?
+		Recusandae impedit repellendus fugit vitae.
+	</p>
+	<p>
+		Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore tenetur ex, impedit molestiae,
+		provident suscipit qui fugiat at, rerum recusandae odio placeat. Aperiam, sequi nobis?
+		Recusandae impedit repellendus fugit vitae.
+	</p>
+	<p>
+		Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore tenetur ex, impedit molestiae,
+		provident suscipit qui fugiat at, rerum recusandae odio placeat. Aperiam, sequi nobis?
+		Recusandae impedit repellendus fugit vitae.
+	</p>
+	<p>
+		Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore tenetur ex, impedit molestiae,
+		provident suscipit qui fugiat at, rerum recusandae odio placeat. Aperiam, sequi nobis?
+		Recusandae impedit repellendus fugit vitae.
+	</p>
+	<p>
+		Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore tenetur ex, impedit molestiae,
+		provident suscipit qui fugiat at, rerum recusandae odio placeat. Aperiam, sequi nobis?
+		Recusandae impedit repellendus fugit vitae.
+	</p>
+	<p>
+		Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore tenetur ex, impedit molestiae,
+		provident suscipit qui fugiat at, rerum recusandae odio placeat. Aperiam, sequi nobis?
+		Recusandae impedit repellendus fugit vitae.
+	</p>
+	<p>
+		Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore tenetur ex, impedit molestiae,
+		provident suscipit qui fugiat at, rerum recusandae odio placeat. Aperiam, sequi nobis?
+		Recusandae impedit repellendus fugit vitae.
+	</p>
+	<p>
+		Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore tenetur ex, impedit molestiae,
+		provident suscipit qui fugiat at, rerum recusandae odio placeat. Aperiam, sequi nobis?
+		Recusandae impedit repellendus fugit vitae.
+	</p>
+	<p>
+		Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore tenetur ex, impedit molestiae,
+		provident suscipit qui fugiat at, rerum recusandae odio placeat. Aperiam, sequi nobis?
+		Recusandae impedit repellendus fugit vitae.
+	</p>
+	<p>
+		Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore tenetur ex, impedit molestiae,
+		provident suscipit qui fugiat at, rerum recusandae odio placeat. Aperiam, sequi nobis?
+		Recusandae impedit repellendus fugit vitae.
+	</p>
+
+	<header class="deneme">
+		<img src={ImgLogo} alt="" />
+	</header>
+
 	<main>
 		<h1>Welcome to <span class="text-gradient">Astro</span></h1>
 		<p class="instructions">
 			To get started, open the directory <code>src/pages</code> in your project.<br />
 			<strong>Code Challenge:</strong> Tweak the "Welcome to Astro" message above.
 		</p>
+
+		<button class="bg-violet-800 p-4 text-white">deneme</button>
+
 		<ul role="list" class="link-card-grid">
 			<Card
 				href="https://docs.astro.build/"
@@ -33,9 +212,9 @@ import Card from '../components/Card.astro';
 			/>
 		</ul>
 	</main>
-</Layout>
+</DefaultLayout>
 
-<style>
+<!-- <style>
 	main {
 		margin: auto;
 		padding: 1.5rem;
@@ -78,4 +257,4 @@ import Card from '../components/Card.astro';
 		gap: 1rem;
 		padding: 0;
 	}
-</style>
+</style> -->
