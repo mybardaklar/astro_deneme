@@ -14,8 +14,12 @@ import ComponentOne from '../components/ComponentOne.astro';
 	<ComponentOne title="Component One" />
 </DefaultLayout>
 
-<style is:inline lang="scss">
+<style lang="scss">
 	.about-page {
-		background: rgba(#000, 0.4);
+		background-color: #000;
+
+		&__wrapper {
+			color: red;
+		}
 	}
 </style>

@@ -1,4 +1,6 @@
 ---
+import './default.layout.scss';
+
 export interface Props {
 	title: string;
 }
@@ -29,13 +31,6 @@ const { title } = Astro.props;
 		</div>
 	</body>
 </html>
-
-<style is:global>
-	.deneme {
-		background-color: #fff;
-		display: block;
-	}
-</style>
 
 <script>
 	import Alpine from 'alpinejs';

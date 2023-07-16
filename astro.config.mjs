@@ -20,24 +20,5 @@ export default defineConfig({
 			},
 		}),
 		alpine(),
-		compress(),
-		mdx(),
-		sitemap(),
 	],
-	vite: {
-		build: {
-			rollupOptions: {
-				output: {
-					/* entryFileNames: 'entry.[hash].js',
-               chunkFileNames: 'chunks/chunk.[hash].js', */
-					chunkFileNames: 'js/entry.[hash].js',
-					entryFileNames: 'chunks/chunk.[hash].js',
-					assetFileNames: (assetInfo) => {
-						console.log(assetInfo);
-						return '[name]-[hash][extname]';
-					},
-				},
-			},
-		},
-	},
 });
